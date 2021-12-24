@@ -43,6 +43,11 @@ powershell.exe -ep bypass
 pip3 install -r req.txt
 ```
 
+# Start the Crawler:
+```
+python3 web_crawl.py
+```
+
 # Sending Data to Elastic Search:
 ```
 python3 upload.py
